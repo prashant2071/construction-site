@@ -12,7 +12,7 @@ footer{
     gap: 14%;
     color: white;
     background-image:linear-gradient(      rgba(56, 55, 81, 1),
-    rgba(53, 53, 81, 0.7)),url(./Group.png) ;
+    rgba(53, 53, 81, 0.7)),url(./mountain.png) ;
     background-repeat: no-repeat;
     background-position:bottom;
     /* background-blend-mode: darken; */
