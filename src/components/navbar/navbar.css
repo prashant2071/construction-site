@@ -5,7 +5,7 @@
   box-sizing: border-box;
   font-family: "Bricolage Grotesque", sans-serif;
 }
-.container {
+.nav-container {
   display: flex;
   justify-content: center;
   justify-content: space-between;
@@ -15,22 +15,21 @@
 .navbar {
   padding: 8px 0px;
 }
-.logo {
+
+.nav-logo {
   margin-right: 30px;
 }
-
 .nav-items {
   display: flex;
   list-style: none;
   gap: 30px;
 }
-
-a {
+.navlink {
   text-decoration: none;
   font-size: 15px;
   color: rgba(150, 150, 150, 1);
 }
-.btn {
+.nav-btn {
   background-color: red;
   color: white;
   border-radius: 4px;

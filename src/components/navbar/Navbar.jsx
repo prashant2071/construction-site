@@ -5,39 +5,54 @@ import logo from "./logo.png";
 const Navbar = () => {
   return (
     <div>
-      <header className="container">
-        <div className="logo">
+      <header className="nav-container">
+        <div className="nav-logo">
           <img src={logo} alt="logo" />
         </div>
         <div className="navbar">
           <nav>
             <ul className="nav-items">
               <li>
-                <a href="#">Home</a>
+
+                <a className="navlink" href="/home">
+                  Home
+                </a>
               </li>
               <li>
-                <a href="#">About Us</a>
+                <a className="navlink" href="/aboutus">
+                  About Us
+                </a>
               </li>
               <li>
-                <a href="#">Services</a>
+                <a className="navlink" href="/services">
+                  Services
+                </a>
               </li>
               <li>
-                <a href="#">Our Projects</a>
+                <a className="navlink" href="/project">
+                  Our Projects
+                </a>
               </li>
               <li>
-                <a href="#">Partners</a>
+                <a className="navlink" href="partners">
+                  Partners
+                </a>
               </li>
               <li>
-                <a href="#">Commitments</a>
+                <a className="navlink" href="/commitments">
+                  Commitments
+                </a>
               </li>
               <li>
-                <a href="#">Media Room</a>
+                <a className="navlink" href="/mediaroom">
+                  Media Room
+                </a>
               </li>
             </ul>
           </nav>
         </div>
         <div>
-          <button class="btn">Contact Us</button>
+          <button class="nav-btn">Contact Us</button>
         </div>
       </header>
     </div>
