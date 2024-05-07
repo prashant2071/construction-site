@@ -8,14 +8,14 @@ import frame from "./Frame.png";
 const Footer = () => {
   return (
     <footer>
-      <div className="container">
-        <div className="top-content">
+      <div className="footer-container">
+        <div className="footer-top-content">
           <img src={frame} alt="logo" />
           <p>
             Making a world a better place through constructing elegant
             hierarchies
           </p>
-          <div className="logo">
+          <div className="social-logo">
             <FaFacebook />
             <CiTwitter />
             <FaInstagram />

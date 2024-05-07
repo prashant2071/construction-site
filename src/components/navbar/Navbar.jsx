@@ -13,6 +13,7 @@ const Navbar = () => {
           <nav>
             <ul className="nav-items">
               <li>
+
                 <a className="navlink" href="/home">
                   Home
                 </a>
