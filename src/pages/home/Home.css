@@ -108,4 +108,46 @@ font-weight: bold;
     text-align: left;
     padding-top: 10px;
 }
+.banner-3{
+    display: flex;
+    
+   
+    justify-content: space-between;
+    margin: auto;
+    padding: 50px 100px 30px 80px;
+    gap: 80px;
+}
+.section-right{
+    margin-right: auto;
+}
+
+.section-left img{
+    width: 550px;
+
+}
+.section-right h1{
+   font-weight: 600;
+   font-size: 38px;
+
+    
+}
+.section-right p{
+    color: rgba(108, 107, 128, 1);
+    text-align: left;
+    font-size: 19px;
+    line-height: 157%;
+    margin-top: 30px;
+   
+    
+}
+.section-right button{
+    margin-top: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    color: red;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 115px;
+    height: 36px;
+}
 

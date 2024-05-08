@@ -13,6 +13,7 @@ import Group7 from "./Group 7.png";
 import Group8 from "./Group 8.png";
 import Group9 from "./Group 9.png";
 import Group10 from "./Group 10.png";
+import frame32 from "./Frame 32.png";
 
 const Home = () => {
   return (
@@ -111,6 +112,26 @@ const Home = () => {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="banner-3">
+        <div className="section-left">
+          <img src={frame32} alt="frame 32" />
+        </div>
+        <div className="section-right">
+          <h1>
+            Get to know more
+            <br /> about us
+          </h1>
+          <p>
+            We are more than just builders; we are creators of enduring spaces
+            and structures that stand as a testament to our commitment to
+            excellence. With a legacy of craftsmanship spanning [number of
+            years] years, we have emerged as a trusted partner in delivering
+            exceptional construction solutions.we are more than just builders;
+            we are creators of enduring spaces
+          </p>
+          <button className="">Explore More</button>
         </div>
       </div>
 
