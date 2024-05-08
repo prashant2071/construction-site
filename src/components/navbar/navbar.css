@@ -10,7 +10,8 @@
   justify-content: center;
   justify-content: space-between;
   margin: auto;
-  padding: 10px 130px;
+  padding: 10px 100px 10px 80px;
+  background-color:rgba(255, 245, 245, 1);
 }
 .navbar {
   padding: 8px 0px;

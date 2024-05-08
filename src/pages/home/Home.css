@@ -1,0 +1,74 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px 100px 10px 80px;
+    background-color:rgba(255, 245, 245, 1); 
+}
+
+.banner-left h1{
+font-size: 50px;
+font-weight: bold;
+}
+.banner-left p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    line-height: 1.7;
+}
+.banner-btn-1{
+    background-color: rgba(220, 38, 38, 1);
+    color: white;
+    border-radius: 4px;
+    border-style: none;
+    font-size: 14px;
+    font-weight: bold;
+    width: 115px;
+    height: 36px;
+    
+    
+}
+.banner-btn-2{
+    background-color: rgba(0, 0, 0, 0) ;
+    color: rgba(157, 156, 175, 1);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 115px;
+    height: 36px;
+    margin-left:10px;
+    
+}
+.banner-right{
+    justify-content: left;
+    background-color: aquamarine;
+}
+.top{
+    display:flex;
+    gap: 10px;
+    
+    margin-bottom: 10px;
+}
+.top img{
+     
+        width: 200px;
+        height: 200px;
+        background-size: 100%;
+        border-radius: 10px;    
+}
+.three{
+        width: 400px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;  
+}
+.vector{
+    position: absolute;
+    top: 140px;
+    left: -60px;  
+}
+
+
+
+
