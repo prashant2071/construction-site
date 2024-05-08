@@ -7,6 +7,7 @@ const Home = () => {
     <div>
       <Navbar/>
       <Footer/>
+      <p>footer section</p>
     </div>
   )
 }
