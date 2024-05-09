@@ -59,7 +59,7 @@ footer{
 h3{
     font-size: 16px;
 }
-p{
+.footer-top-content p{
     padding-top: 10px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
