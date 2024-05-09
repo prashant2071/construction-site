@@ -110,15 +110,14 @@ font-weight: bold;
 }
 .banner-3{
     display: flex;
-    
-   
     justify-content: space-between;
     margin: auto;
-    padding: 50px 100px 30px 80px;
+    padding: 50px 100px 30px 120px;
     gap: 80px;
 }
 .section-right{
     margin-right: auto;
+
 }
 
 .section-left img{
@@ -157,7 +156,7 @@ font-weight: bold;
 .ournews-section{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
     padding: 5%;
     gap: 15px;
     margin:auto;
