@@ -1,19 +1,25 @@
 import React from "react";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
+import { FaAngleLeft } from "react-icons/fa6";
+import { FaAngleRight } from "react-icons/fa6";
+
 import "./Home.css";
-import one from "./one.png";
-import two from "./two.png";
-import three from "./three.png";
-import vector from "./Vector.png";
-import symbol from "./symbol.png";
-import Group5 from "./Group 5.png";
-import Group6 from "./Group 6.png";
-import Group7 from "./Group 7.png";
-import Group8 from "./Group 8.png";
-import Group9 from "./Group 9.png";
-import Group10 from "./Group 10.png";
-import frame32 from "./Frame 32.png";
+import one from "../../images/one.png";
+import two from "../../images/two.png";
+import three from "../../images/three.png";
+import vector from "../../images/Vector.png";
+import symbol from "../../images/symbol.png";
+import Group5 from "../../images/Group 5.png";
+import Group6 from "../../images/Group 6.png";
+import Group7 from "../../images/Group 7.png";
+import Group8 from "../../images/Group 8.png";
+import Group9 from "../../images/Group 9.png";
+import Group10 from "../../images/Group 10.png";
+import frame32 from "../../images/Frame 32.png";
+import building from "../../images/building.png";
+import children from "../../images/children.png";
+import worker from "../../images/worker.png";
 
 const Home = () => {
   return (
@@ -134,7 +140,65 @@ const Home = () => {
           <button className="">Explore More</button>
         </div>
       </div>
+      <div className="newsection-top">
+        <div className="ournews-section">
+          <div className="topheaders">
+            <p className="top-p">Our news</p>
+            <h3 className="top-h3">Explore our latest News</h3>
+          </div>
+          {/* <h3 className="top-h3">Explore our latest News</h3> */}
 
+          <div className="news">
+            <FaAngleLeft className="arrow" />
+            <div className="news-card">
+              <img src={children} alt="logo" />
+              <div className="card-text">
+                <h3>
+                  Stone Laying Ceremony Marks Commencement of 132 kV
+                  Amarpur-Dhungesanghu
+                </h3>
+                <p>
+                  In this article, I won’t talk about the general concepts of
+                  typography, which can be used both in print...
+                </p>
+                <p className="dateparagraph"> <span >.</span>jun 27,2020.6 min ago</p>
+              </div>
+            </div>
+            <div className="news-card">
+              <img src={worker} alt="logo" />
+              <div className="card-text">
+                <h3>
+                  Cosmic Electrical Limited Successfully Completes and Charges
+                  132 kV Power...
+                </h3>
+                <p>
+                  In this article, I won’t talk about the general concepts of
+                  typography, which can be used both in print...
+                </p>
+                <p className="dateparagraph"><span >.</span> jun 27,2020.6 min ago</p>
+              </div>
+            </div>
+            <div className="news-card">
+              <img src={building} alt="logo" />
+              <div className="card-text">
+                <h3>
+                  CEL Employees Embrace Camaraderie and Team Spirit at Annual
+                  Office Picnic
+                </h3>
+                <p>
+                  In this article, I won’t talk about the general concepts of
+                  typography, which can be used both in print...
+                </p>
+                <p className="dateparagraph"><span >.</span>jun 27,2020.6 min ago</p>
+              </div>
+            </div>
+            <FaAngleRight className="arrow" />
+          </div>
+          <button className="explore-button" type="button">
+            View all
+          </button>
+        </div>
+      </div>
       <Footer />
     </div>
   );
