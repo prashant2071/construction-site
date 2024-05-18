@@ -20,7 +20,7 @@ import building from "../../images/building.png";
 import children from "../../images/children.png";
 import worker from "../../images/worker.png";
 import hands from "../../images/Hands.png";
-
+import construction1 from "../../images/construction 1.png";
 
 const Home = () => {
   return (
@@ -204,6 +204,19 @@ const Home = () => {
           <button className="explore-button" type="button">
             View all
           </button>
+        </div>
+      </div>
+      <div className="mission">
+        <div className="leftside">
+          <p>Our Mission</p>
+          <h1>
+            Our Goal Is Simple - We strive constructing a house easier, faster &
+            unwavering dedication to quality.
+          </h1>
+          <button>Get a Quote</button>
+        </div>
+        <div className="rightside">
+          <img src={construction1} alt="" />
         </div>
       </div>
       <div className="commitment-section">
