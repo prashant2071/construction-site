@@ -223,11 +223,15 @@ const Home = () => {
         <div className="commitment1">
           <div className="commitment-content">
             <p>Our Commitment</p>
-              <h2>
-              At Cosmic Electrical, our commitment to excellence is not just a slogan; it’s the driving force behind everything we do. We understand the critical role of electrical infrastructure in powering communities, industries, and innovations, and we take our responsibility seriously.
-              </h2>
+            <h2>
+              At Cosmic Electrical, our commitment to excellence is not just a
+              slogan; it’s the driving force behind everything we do. We
+              understand the critical role of electrical infrastructure in
+              powering communities, industries, and innovations, and we take our
+              responsibility seriously.
+            </h2>
           </div>
-              <img src={hands} className="hand-image"/>
+          <img src={hands} className="hand-image" alt="hand" />
         </div>
       </div>
     </>
