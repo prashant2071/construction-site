@@ -231,7 +231,7 @@ const Home = () => {
               responsibility seriously.
             </h2>
           </div>
-          <img src={hands} className="hand-image" alt="hand" />
+              <img src={hands} className="hand-image" alt='hand'/>
         </div>
       </div>
     </>
