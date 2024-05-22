@@ -9,20 +9,17 @@ import Services from "./pages/service/Services";
 function App() {
   return (
     <>
-      <Navbar />
       <Router>
+      <Navbar />
         <Routes>
           <Route path="" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="services" element={<Services />} />
-
           <Route path="card" element={<Card/>} />
           <Route path="*" element={<NoPageFound/>} />
-
-          
         </Routes>
-      </Router>
       <Footer />
+      </Router>
     </>
   );
 }
