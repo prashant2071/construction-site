@@ -52,7 +52,7 @@ const Navbar = () => {
           </nav>
         </div>
         <div>
-          <button class="nav-btn">Contact Us</button>
+          <button className="nav-btn">Contact Us</button>
         </div>
       </header>
     </div>
