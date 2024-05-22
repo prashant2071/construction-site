@@ -22,7 +22,7 @@ import worker from "../../images/worker.png";
 import hands from "../../images/Hands.png";
 import construction1 from "../../images/construction 1.png";
 import { FaArrowRightLong } from "react-icons/fa6";
-import Card from "./../../components/card/Card";
+import Card from './../../components/card/Card'
 import { FaArrowLeftLong } from "react-icons/fa6";
 
 const Home = () => {
@@ -234,8 +234,7 @@ const Home = () => {
               responsibility seriously.
             </h2>
           </div>
-
-          <img src={hands} alt="hand" className="hand-image" />
+          <img src={hands} className="hand-image" />
         </div>
       </div>
       <div className="last-section">
@@ -243,17 +242,16 @@ const Home = () => {
           <h2>What our clinet has to say about us</h2>
           <div>
             <button>
-              <FaArrowLeftLong
-                style={{ color: "black", width: "40px", fontSize: "15px" }}
-              />
+              <FaArrowLeftLong  style={{ color: 'black', width:"40px", fontSize: '15px', }}/>
             </button>
             <button className="btn-rignt">
-              <FaArrowRightLong style={{ color: "white", fontSize: "15px" }} />
+              <FaArrowRightLong style={{ color: 'white', fontSize: '15px' }} />
+
             </button>
           </div>
         </div>
         <div className="buttom-section">
-          <Card />
+              <Card/>
         </div>
       </div>
     </>
