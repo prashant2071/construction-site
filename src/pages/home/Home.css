@@ -61,7 +61,7 @@
 }
 .vector {
   position: absolute;
-  top: 140px;
+  top: 180px;
   left: -60px;
 }
 .banner-2 p {
@@ -331,6 +331,7 @@
     width: 90%;
     display: flex;
     justify-content: space-between;
+
     h2 {
       width: 30%;
       font-weight: 600;
@@ -352,6 +353,5 @@
     }
   }
   .buttom-section {
-    width: 100%;
-  }
+    width: 10;
 }
