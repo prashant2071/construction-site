@@ -6,6 +6,7 @@ import Navbar from "./components/navbar/Navbar";
 import Card from "./components/card/Card";
 import NoPageFound from "./pages/NoPageFound";
 import Services from "./pages/service/Services";
+import Commitment from "./pages/commitment/Commitment";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
           <Route path="" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="services" element={<Services />} />
+          <Route path="Commitment" element={<Commitment />} />
 
           <Route path="card" element={<Card/>} />
           <Route path="*" element={<NoPageFound/>} />

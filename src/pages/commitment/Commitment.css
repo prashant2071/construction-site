@@ -1,0 +1,42 @@
+.commitment{
+    
+    justify-content: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px 100px 10px 80px;
+}
+.element1{
+    text-align:center;
+    margin-top: 30px;
+    
+    
+}
+.container h1{
+    text-align: center;
+    margin: 30px;
+    display: inline-block;
+    color: aqua;  
+}
+
+.Development{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  
+    
+}
+.content{
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 1.8;
+    
+}
+.content h2{
+    font-size: 27px;
+    font-weight: 600;
+}
+.Development img{
+    padding: 10px 100px;
+}
