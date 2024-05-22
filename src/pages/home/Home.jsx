@@ -21,6 +21,9 @@ import children from "../../images/children.png";
 import worker from "../../images/worker.png";
 import hands from "../../images/Hands.png";
 import construction1 from "../../images/construction 1.png";
+import { FaArrowRightLong } from "react-icons/fa6";
+import Card from './../../components/card/Card'
+import { FaArrowLeftLong } from "react-icons/fa6";
 
 const Home = () => {
   return (
@@ -46,11 +49,11 @@ const Home = () => {
 
         <div classname="banner-right">
           <img src={symbol} alt="" />
-          <div class="top">
-            <img class="one" src={one} alt="first " />
-            <img class="two" src={two} alt="second " />
+          <div className="top">
+            <img className="one" src={one} alt="first " />
+            <img className="two" src={two} alt="second " />
           </div>
-          <img class="three" src={three} alt="third " />
+          <img className="three" src={three} alt="third " />
         </div>
       </div>
       <div className="banner-2">
@@ -223,11 +226,31 @@ const Home = () => {
         <div className="commitment1">
           <div className="commitment-content">
             <p>Our Commitment</p>
-              <h2>
-              At Cosmic Electrical, our commitment to excellence is not just a slogan; it’s the driving force behind everything we do. We understand the critical role of electrical infrastructure in powering communities, industries, and innovations, and we take our responsibility seriously.
-              </h2>
+            <h2>
+              At Cosmic Electrical, our commitment to excellence is not just a
+              slogan; it’s the driving force behind everything we do. We
+              understand the critical role of electrical infrastructure in
+              powering communities, industries, and innovations, and we take our
+              responsibility seriously.
+            </h2>
           </div>
-              <img src={hands} className="hand-image"/>
+          <img src={hands} className="hand-image" />
+        </div>
+      </div>
+      <div className="last-section">
+        <div className="top-section">
+          <h2>What our clinet has to say about us</h2>
+          <div>
+            <button>
+              <FaArrowLeftLong  style={{ color: 'black', width:"40px", fontSize: '15px', }}/>
+            </button>
+            <button className="btn-rignt">
+              <FaArrowRightLong style={{ color: 'white', fontSize: '15px' }} />
+            </button>
+          </div>
+        </div>
+        <div className="buttom-section">
+              <Card/>
         </div>
       </div>
     </>
