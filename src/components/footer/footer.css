@@ -1,23 +1,20 @@
 footer{
     width: 100%;
     background-color:rgba(56, 55, 81, 1);
-
-
-}
-.footer-container{
-    display: flex;
-    width:100%;
-    padding:12%;
-    height: 15vh;
-    background-color:rgba(56, 55, 81, 1) ;
-    gap: 18%;
-    color: white;
+    height:55vh;
     background-image:linear-gradient(      rgba(56, 55, 81, 1),
     rgba(53, 53, 81, 0.7)),url(./mountain.png) ;
     background-repeat: no-repeat;
-    background-position:bottom;
-    /* background-blend-mode: darken; */
-    background-position-x: right;
+    background-position-y:bottom;
+    background-position-x:right;
+}
+.footer-container{
+    display: flex;
+    height:50vh;
+    width:100%;
+    padding:12%;
+    gap: 18%;
+    color: white;
 }
 .footer-top-content{
     display: flex;
@@ -50,6 +47,9 @@ footer{
             color: gray;
         }
     }
+    p{
+        color: gray;
+    }
 }
 .social-logo{
     display: flex;
@@ -70,4 +70,10 @@ h3{
     flex-direction: column;
     gap: 5px;
     margin-top: 10px;
+}
+.footer-copyright{
+    margin: auto;
+    text-align: center;
+    color:#EAEAEA ;
+
 }
