@@ -52,6 +52,8 @@ const Footer = () => {
 
         </div>
       </div>
+      
+      <p className="footer-copyright">&copy; 2024 construction company , All right reserved</p>
     </footer>
   );
 };

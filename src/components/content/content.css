@@ -1,0 +1,19 @@
+.content-container{
+    height: 10vh;
+    width: 100vw;
+    background-color:#FFF5F5 ;
+    text-align: center;
+    h3{
+        font-size: 32px;
+        font-weight: 450;
+    }
+}
+.sub-desc{
+    background-color: 1px solid black;
+    display: flex;
+    justify-content: center;
+    .color-home{
+        color:#96A5C4 ;
+        text-align: center;
+    }
+}

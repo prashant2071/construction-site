@@ -1,0 +1,31 @@
+.main-card{
+    margin: auto;
+    width: 90%;
+    padding-top: 5%;
+    display: flex;
+    gap:5%
+}
+.home-card{
+    background-color: white;
+    border-radius: 18px;
+    height: 260px;
+    width: 430px;
+    padding: 20px 30px 100px 25px ;
+    box-shadow: 10px 10px 15px -15px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 15px -15px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 15px -15px rgba(0, 0, 0, 0.75);
+    p{
+        word-spacing: 2px;  
+        margin-top: 15px;
+        margin-bottom: 30px;
+      }
+      h4{
+        color: #6C6B80;
+      }
+      .last-paragraph{
+        color: #9D9CAF;
+        margin-top: 5px;
+      }
+  
+
+}
