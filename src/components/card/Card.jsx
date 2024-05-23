@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { testomonials } from "./../data/data";
+import { testomonials } from "../data/cardData";
 import "./card.css";
 
 const Card = () => {
@@ -11,18 +11,13 @@ const Card = () => {
   return (
     <>
       <div className="main-card">
-        {testomonials?testomonials.map((item) => (
-          <div className="home-card">
+        {data?data.map((item,i) => (
+          <div className="home-card" key={i}>
             <p>{item.description}</p>
             <h4>{item.name}</h4>
             <p className="last-paragraph">{item.companyName}</p>
           </div>
         )):<p>loading ...</p>}
-        {/* <div className="home-card">
-          <p>Our project is was completed on time and within budget, and qualify of craftmanship exceeded our expections. What truly set [Company Name] apart</p>
-          <h4>Courtney Henry</h4>
-          <p className="last-paragraph">South market street plaza</p>
-        </div> */}
       </div>
     </>
   );
