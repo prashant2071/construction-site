@@ -10,34 +10,34 @@ export const ServiceData = [
     desc:
       "Embracing innovation is at the core of our ethos. We leverage cutting-edge technologies and sustainable practices to drive efficiency, minimize environmental impact.",
     image: Frame1,
-    level:"one"
+    level:"one1"
   },
   {
     name: "Construction",
     desc:
       "client satisfaction is paramount. We prioritize clear communication, transparency, and collaboration to ensure that your vision is brought to life seamlessly.",
     image: Frame2,
-    level:"two"
+    level:"two2"
   },
   {
     name: "Ready mix concrete",
     desc:
       "client satisfaction is paramount. We prioritize clear communication, transparency, and collaboration to ensure that your vision is brought to life seamlessly.",
     image: Frame3,
-    level:"three"
+    level:"three3"
   },
   {
-    name: "Transporttation",
+    name: "Transportation",
     desc:
       "client satisfaction is paramount. We prioritize clear communication, transparency, and collaboration to ensure that your vision is brought to life seamlessly.",
     image: Frame4,
-    level:"four"
+    level:"four4"
   },
   {
     name: "Quality service",
     desc:
       "client satisfaction is paramount. We prioritize clear communication, transparency, and collaboration to ensure that your vision is brought to life seamlessly.",
     image: Frame5,
-    level:"five"
+    level:"five5"
   },
 ];
