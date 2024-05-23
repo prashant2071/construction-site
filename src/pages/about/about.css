@@ -1,3 +1,26 @@
+.about-section{
+  width: 100%;
+}
+.about-content{
+  p {
+    margin-bottom: 2%;
+    color: #dd350f;
+    font-size: 18px;
+  }
+  h1{
+      width: 70%;
+  }
+  h2 {
+    font-weight: 500;
+    color: #545463;
+    margin-top: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 30px;
+  }
+}
+
 .commitment-section {
     width: 100%;
     /* gap: 40px; */
@@ -5,8 +28,8 @@
     margin-top: 20px;
   
     img {
-      height: 480px;
-      width: 37%;
+      height: 450px;
+      width: 33%;
       position: absolute;
       top: 28px;
       right: 9%;
@@ -16,43 +39,100 @@
     margin: auto;
     padding-top: 3%;
     padding-bottom: 8%;
-    width: 82%;
+    width: 72%;
   }
   .commitment-content {
     width: 42%;
   
-    p {
-      margin-bottom: 2%;
-      color: #dd350f;
-      font-size: 18px;
-    }
-    h1{
-        width: 70%;
-    }
-    h2 {
-      font-weight: 500;
-      color: #545463;
-      margin-top: 10px;
-      font-size: 18px;
-      letter-spacing: 1px;
-      word-spacing: 3px;
-      line-height: 30px;
-    }
+
 }
 .about-fullbanner{
     width: 100%;
     height: 180px;
-    border: 1px solid black;
     background-image:url(./../../images/fullbanner.png) ;
     background-color:#363546;
+    position: relative;
 } 
 .about-banner{
+  position: absolute;
+  left: 10%;
+  width: 80%;
+  margin: auto;
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-evenly;
+  h2{
     color: white;
-    width: 80%;
-    margin: auto;
-    margin-top: 4%;
-    display: flex;
-    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+
+}
+
+
+.commitment-section2 {
+  width: 100%;
+  margin-top: 20px;
+
+  img {
+    height: 450px;
+    width: 33%;
+  }
+}
+.commitment2 {
+  display: flex;
+  gap: 10%;
+  margin: auto;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  width: 72%;
+  
+}
+.commitment-content2 {
+  width: 42%;
+  position: relative;
+  top:50px;
+  
+}
+.person-position{
+  display: flex;
+  gap: 7px;
+  span{
+    color:#676776;
+  }
+
+}
+.teams{
+  margin: auto;
+  width: 72%;
+
+  h1{
+    color: #dd350f;
+  }
+}
+.about-container{
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  img{
+    height: 330px;
+    width: 330px;
+  }
+}
+.person-container{
+  margin-bottom: 5%;
+  h2{
+    margin-top: 7px;
+  }
+  p{
+    color:#82828d;
+    span{
+      margin-right: 5px;
+      font-size: 30px;
+    }
+  }
 
 
 }
