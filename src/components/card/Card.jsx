@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { testomonials } from "../data/cardData";
+import { testomonials } from "../../utilities/data/cardData";
 import "./card.css";
 
 const Card = () => {
