@@ -1,0 +1,58 @@
+.service-section {
+  width: 100%;
+}
+.service-container {
+  padding-top: 30px;
+  margin: auto;
+  width: 65%;
+  display: flex;
+  gap: 5%;
+  flex-wrap: wrap;
+}
+.service-card {
+  border: 1px solid #767373;
+  margin-bottom: 30px;
+  padding: 35px 25px 0px 25px;
+  border-radius: 10px;
+  height: 380px;
+  width: 30%;
+  position: relative;
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  p {
+    color: #767373;
+    line-height: 23px;
+  }
+  h3{
+    position: relative;
+    color: #496AD0;
+    top:35px;
+  }
+  .one1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 35px 25px 0px 25px;
+    background-image: linear-gradient(rgb(31, 30, 79), rgba(7, 7, 26, 0.7)),
+      url(./../../images/one.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 380px;
+    width: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    p {
+      color: white;
+    }
+    h2 {
+      color: white;
+    }
+    h3{
+      color: white;
+    }
+  }
+}
+

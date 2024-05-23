@@ -1,52 +1,54 @@
 import React from "react";
 import "../navbar/navbar.css";
 import logo from "./logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div>
       <header className="nav-container">
         <div className="nav-logo">
-          <img src={logo} alt="logo" />
+          <Link to="/" className="navlink">
+            <img src={logo} alt="logo" />
+          </Link>
         </div>
         <div className="navbar">
           <nav>
             <ul className="nav-items">
               <li>
-
-                <a className="navlink" href="/home">
+                <Link to="/" className="navlink">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="navlink" href="/aboutus">
+                <Link to="/about" className="navlink">
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="navlink" href="/services">
+                <Link to="/services" className="navlink">
                   Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="navlink" href="/project">
+                <Link to="/" className="navlink">
                   Our Projects
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="navlink" href="partners">
+                <Link to="/" className="navlink">
                   Partners
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="navlink" href="/commitments">
-                  Commitments
-                </a>
+                <Link to="/" className="navlink">
+                  Commitment
+                </Link>
               </li>
               <li>
-                <a className="navlink" href="/mediaroom">
+                <Link to="/" className="navlink">
                   Media Room
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
