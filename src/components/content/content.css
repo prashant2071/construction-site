@@ -1,11 +1,11 @@
 .content-container{
-    height: 10vh;
+    height: 13vh;
     width: 100vw;
     background-color:#FFF5F5 ;
     text-align: center;
     h3{
         font-size: 32px;
-        font-weight: 450;
+        font-weight: 600;
     }
 }
 .sub-desc{
