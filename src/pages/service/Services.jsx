@@ -1,4 +1,4 @@
-import { ServiceData } from "../../utilities/data/personCard/ServiceData";
+import { ServiceData } from "../../utilities/data/ServiceData";
 import React from "react";
 import Content from "../../components/content/Content";
 import { FaArrowRightLong } from "react-icons/fa6";
