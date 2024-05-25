@@ -37,7 +37,7 @@
     left: 0px;
     padding: 35px 25px 0px 25px;
     background-image: linear-gradient(rgb(31, 30, 79), rgba(7, 7, 26, 0.7)),
-      url(./../../images/one.png);
+      url(./../../images/one1.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 380px;
@@ -54,5 +54,5 @@
       color: white;
     }
   }
-}
 
+}

@@ -27,7 +27,7 @@ export const ServiceData = [
     level:"three3"
   },
   {
-    name: "Transporttation",
+    name: "Transportation",
     desc:
       "client satisfaction is paramount. We prioritize clear communication, transparency, and collaboration to ensure that your vision is brought to life seamlessly.",
     image: Frame4,

@@ -41,7 +41,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/" className="navlink">
+                <Link to="/commitment" className="navlink">
                   Commitment
                 </Link>
               </li>

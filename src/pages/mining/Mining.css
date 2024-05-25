@@ -1,0 +1,15 @@
+.mining p{
+   
+    justify-content: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px 370px 20px 370px;
+
+    
+}
+.a{
+    list-style-type: disc;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 20px 370px 20px 370px;
+}
