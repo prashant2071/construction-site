@@ -1,0 +1,124 @@
+.partner-content{
+    width: 100%;
+    .top-content{
+        margin: auto;
+        width: 80%;
+        margin-bottom: 7%;
+
+}
+.partner-heading{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 7% ;
+    h3{
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 15px;
+
+    }
+    p{ 
+        margin: auto;
+        text-align: center;
+        color: grey;
+        width: 45%;
+    }
+}
+    .img-sec{
+        display: flex;
+        justify-content: space-around;
+
+        img{
+            position: relative;
+            left: 20px;
+        }
+        h3{
+            position: relative;
+            width: 150px;
+            
+        }
+    }
+    .bottom-content{
+        margin: auto;
+        margin-bottom: 7%;
+        p{ 
+            margin: auto;
+            text-align: center;
+            color: grey;
+            width: 35%;
+        }
+        .img-sec{
+            display: flex;
+            justify-content: space-around;
+            margin: auto;
+            width: 50%;
+    
+            img{
+                position: relative;
+                left: 20px;
+            }
+            
+            h3{
+                position: relative;
+                width: 150px;
+                
+            }
+        }
+
+}
+}
+.partner-mission{
+    display: flex;
+    justify-content: space-around;
+    height: 420px;
+    .partner-leftside{
+      background-image:url(./../../images/fullbanner.png);
+      background-repeat: no-repeat;
+      background-position:center;
+      background-size: cover;
+      background-color:#2a2937;
+
+        position: relative;
+        width: 80%;
+        color: white;
+        .content{
+            position: absolute;
+            top: 20%;
+            left: 13%;
+            width: 42%;
+            margin: auto;
+            p{
+                color: white;
+                margin-bottom: 10px;
+
+            }
+            h1{
+                font-size: 35px;
+                color: white;
+                font-weight: 500;
+                /* line-height: 10px; */
+                
+            }
+            button{
+                margin-top: 30px;
+                padding: 10px 14px 10px 14px;
+                width: 160px;
+                font-weight: 700;
+                color: rgb(97, 96, 96);
+                border: none;
+                border-radius: 5px ;
+            }
+        }
+    }
+    .partner-rightside{
+        width: 20%;
+        background-color: #EF4444;
+        img{
+            position: relative;
+            height: 550px;
+            top: -126px;
+            left:-190px
+        }
+
+    }
+
+}

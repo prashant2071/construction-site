@@ -1,8 +1,8 @@
-import Frame1 from "./../../../images/Frame1.png";
-import Frame2 from "./../../../images/Frame2.png";
-import Frame3 from "./../../../images/Frame3.png";
-import Frame4 from "./../../../images/Frame4.png";
-import Frame5 from "./../../../images/Frame5.png";
+import Frame1 from "./../../images/Frame1.png";
+import Frame2 from "./../../images/Frame2.png";
+import Frame3 from "./../../images/Frame3.png";
+import Frame4 from "./../../images/Frame4.png";
+import Frame5 from "./../../images/Frame5.png";
 // import Frame1 from "./../../../images/Frame1.png"
 export const ServiceData = [
   {
