@@ -246,6 +246,7 @@ const Home = () => {
             </button>
             <button className="btn-rignt">
               <FaArrowRightLong style={{ color: 'white', fontSize: '15px' }} />
+
             </button>
           </div>
         </div>
