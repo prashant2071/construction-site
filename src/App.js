@@ -6,6 +6,7 @@ import Navbar from "./components/navbar/Navbar";
 import Card from "./components/card/Card";
 import NoPageFound from "./pages/NoPageFound";
 import Services from "./pages/service/Services";
+import Partner from "./pages/partner/Partner";
 function App() {
   return (
     <>
@@ -16,6 +17,8 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="services" element={<Services />} />
           <Route path="card" element={<Card/>} />
+          <Route path="partner" element={<Partner/>} />
+
           <Route path="*" element={<NoPageFound/>} />
         </Routes>
       <Footer />
