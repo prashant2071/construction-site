@@ -12,7 +12,7 @@ const Mining = () => {
         </p>
         <p>
           As a designer, content should be the driving force behind many of your
-          decisions, whether you’re creating the content or someone else is. So
+          decisions, whether you’re creating a content or someone else is. So
           if you can understand how to write effective copy (and understand the
           purpose that it serves), you’ll be able to better serve your clients
           and ultimately create better designs.
