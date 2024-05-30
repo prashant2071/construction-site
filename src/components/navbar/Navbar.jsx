@@ -50,9 +50,11 @@ const Navbar = () => {
                 <div class="dropdown">
                   Media Room
                   <div class="dropdown-content">
-                    <Link to={"/contact"}>Press Release</Link>
+                    <Link to={"/PressRelease"}>Press Release</Link>
 
                     <Link to={"/contact"}>Carrer</Link>
+                    <Link to={"/contact"}>Contact</Link>
+
 
                     <Link to={"/testimonials"}>Testimonials</Link>
                   </div>
