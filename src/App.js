@@ -24,7 +24,6 @@ function App() {
           <Route path="commitment" element={<Commitment />} />
           <Route path="Mining" element={<Mining />} />
           <Route path="PressRelease" element={<PressRelease />} />
-          <Route path="card" element={<Card />} />
           <Route path="partner" element={<Partner />} />
           <Route path="service" element={<Services />} />
           <Route path="project" element={<Project />} />
