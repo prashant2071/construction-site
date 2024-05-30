@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "../navbar/navbar.css";
 import logo from "./logo.png";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+
   return (
     <div>
       <header className="nav-container">
@@ -31,7 +32,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/" className="navlink">
+                <Link to="/project" className="navlink">
                   Our Projects
                 </Link>
               </li>
@@ -45,10 +46,19 @@ const Navbar = () => {
                   Commitment
                 </Link>
               </li>
-              <li>
-                <Link to="/" className="navlink">
+              <li className="navlink">
+                <div class="dropdown">
                   Media Room
-                </Link>
+                  <div class="dropdown-content">
+                    <Link to={"/PressRelease"}>Press Release</Link>
+
+                    <Link to={"/contact"}>Carrer</Link>
+                    <Link to={"/contact"}>Contact</Link>
+
+
+                    <Link to={"/testimonials"}>Testimonials</Link>
+                  </div>
+                </div>
               </li>
             </ul>
           </nav>

@@ -1,0 +1,92 @@
+.contact-container {
+  width: 100vw;
+  
+  .contact-content-container {
+    background-color: #E6EBFA;
+    height: 33vh;
+    width: 100vw;
+    background-color: #fff5f5;
+    text-align: center;
+    h3 {
+      font-size: 32px;
+      font-weight: 600;
+    }
+    .sub-desc {
+      background-color: 1px solid black;
+      display: flex;
+      justify-content: center;
+      .color-home {
+        color: #96a5c4;
+        text-align: center;
+      }
+    }
+  }
+  .top-contact{
+    background-color:#F5F6FB ;
+  }
+  .contact-details {
+    position: relative;
+    background-color: #FFFFFF;
+    top:-100px;
+    padding:20px;
+    width: 48%;
+    border: 1px rgb(207, 205, 205) solid;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 10px 10px 15px -15px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 15px -15px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 15px -15px rgba(0, 0, 0, 0.75);
+    .inner {
+      width: 85%;
+      margin: auto;
+      margin-bottom: 5%;
+      h3{
+
+        padding: 5% 0% 5% 0;
+      }
+      label {
+        font-size: 14px;
+        font-weight: 500;
+        /* margin-bottom: 45px; */
+      }
+      .row {
+        /* border: 1px solid black; */
+        width: 100%;
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        margin-bottom: 5%;
+        /* gap: 10%; */
+        input {
+          margin-top: 10px;
+          padding: 15px;
+          width:300px ;
+          /* border: grey; */
+          border: 1px rgb(207, 205, 205) solid;
+          border-radius: 6px;
+          margin-bottom:10px ;
+
+        }
+      }
+      textarea{
+        padding: 10px;
+        width:640px ;
+        height: 120px;
+        margin-bottom:10px ;
+        border: 1px rgb(207, 205, 205) solid;
+        border-radius: 10px;
+      }
+      button{
+        padding: 14px;
+        background-color: #DC2626;
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+        border: none;
+        border-radius: 5px;
+        position: relative;
+        left:85%;
+      }
+    }
+  }
+}

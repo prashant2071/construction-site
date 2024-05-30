@@ -251,7 +251,7 @@ const Home = () => {
           </div>
         </div>
         <div className="buttom-section">
-              <Card/>
+              <Card name="home"/>
         </div>
       </div>
     </>

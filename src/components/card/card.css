@@ -3,13 +3,15 @@
     width: 90%;
     padding-top: 5%;
     display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
     gap:5%
 }
 .home-card{
     background-color: white;
     border-radius: 18px;
     height: 260px;
-    width: 430px;
+    width: 28%;
     padding: 20px 30px 100px 25px ;
     box-shadow: 10px 10px 15px -15px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 10px 10px 15px -15px rgba(0, 0, 0, 0.75);
