@@ -9,7 +9,6 @@ import { PageNumberFunc } from "../../utilities/page.js";
 const Testimonial = () => {
   const [data, setData] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [totalPage, setTotalPage] = useState(0);
   const [pageNumber, setpageNumber] = useState([]);
   const [fade, setFade] = useState(false);
   const perpage = 6;

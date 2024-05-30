@@ -10,6 +10,7 @@ import Commitment from './pages/commitment/Commitment';
 import Mining from './pages/mining/Mining';
 import Project from './pages/project/Project';
 import Testimonial from "./pages/testimonials/Testimonial";
+import Contact from "./pages/contact/Contact";
 function App() {
   return (
     <>
@@ -25,6 +26,8 @@ function App() {
           <Route path="service" element={<Services/>} />
           <Route path="project" element={<Project/>} />
           <Route path="testimonials" element={<Testimonial/>} />
+          <Route path="contact" element={<Contact/>} />
+
 
           <Route path="*" element={<NoPageFound/>} />
           
