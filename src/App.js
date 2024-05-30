@@ -10,6 +10,7 @@ import Partner from "./pages/partner/Partner";
 import Commitment from './pages/commitment/Commitment';
 import Mining from './pages/mining/Mining';
 import Project from './pages/project/Project';
+import PressRelease from './pages/pressRelease/PressRelease';
 function App() {
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
           <Route path="services" element={<Services />} />
           <Route path="Commitment" element={<Commitment />} />
           <Route path="Mining" element={<Mining />} />
+          <Route path="PressRelease" element={<PressRelease />} />
           <Route path="card" element={<Card/>} />
           <Route path="partner" element={<Partner/>} />
           <Route path="service" element={<Services/>} />
