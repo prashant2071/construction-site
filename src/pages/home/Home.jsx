@@ -1,20 +1,19 @@
 import React from "react";
-
+import Banner from "../../components/banner/Banner"
 import { FaAngleLeft } from "react-icons/fa6";
 import { FaAngleRight } from "react-icons/fa6";
-
 import "./Home.css";
 import one from "../../images/one.png";
 import two from "../../images/two.png";
 import three from "../../images/three.png";
 import vector from "../../images/Vector.png";
 import symbol from "../../images/symbol.png";
-import Group5 from "../../images/Group 5.png";
-import Group6 from "../../images/Group 6.png";
-import Group7 from "../../images/Group 7.png";
-import Group8 from "../../images/Group 8.png";
-import Group9 from "../../images/Group 9.png";
-import Group10 from "../../images/Group 10.png";
+// import Group5 from "../../images/Group 5.png";
+// import Group6 from "../../images/Group 6.png";
+// import Group7 from "../../images/Group 7.png";
+// import Group8 from "../../images/Group 8.png";
+// import Group9 from "../../images/Group 9.png";
+// import Group10 from "../../images/Group 10.png";
 import frame32 from "../../images/Frame 32.png";
 import building from "../../images/building.png";
 import children from "../../images/children.png";
@@ -22,7 +21,7 @@ import worker from "../../images/worker.png";
 import hands from "../../images/Hands.png";
 import construction1 from "../../images/construction 1.png";
 import { FaArrowRightLong } from "react-icons/fa6";
-import Card from './../../components/card/Card'
+import Card from "./../../components/card/Card";
 import { FaArrowLeftLong } from "react-icons/fa6";
 
 const Home = () => {
@@ -56,73 +55,8 @@ const Home = () => {
           <img className="three" src={three} alt="third " />
         </div>
       </div>
-      <div className="banner-2">
-        <p>Why Choose Us?</p>
-        <h1>
-          We Choose best for
-          <br /> our clients
-        </h1>
-        <div className="container">
-          <div className="card">
-            <img className="banner2-icon" src={Group5} alt="" />
-            <div className="textarea">
-              <h2>Expertise</h2>
-              <p>we bring expertise and ingenuity to every project.</p>
-            </div>
-          </div>
-          <div className="card">
-            <img className="banner2-icon" src={Group6} alt="" />
-            <div className="textarea">
-              <h2>Quality Assurance</h2>
-              <p>
-                We adhere to the highest standards of quality in every aspect of
-                our work.
-              </p>
-            </div>
-          </div>
-          <div className="card">
-            <img className="banner2-icon" src={Group7} alt="" />
-            <div className="textarea">
-              <h2>Client Centric</h2>
-              <p>
-                We prioritize clear communication, transparency, and
-                collaboration.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="container">
-          <div className="card">
-            <img className="banner2-icon" src={Group8} alt="" />
-            <div className="textarea">
-              <h2>Innovation</h2>
-              <p>
-                We leverage cutting-edge technologies and sustainable practices.
-              </p>
-            </div>
-          </div>
-          <div className="card">
-            <img className="banner2-icon" src={Group9} alt="" />
-            <div className="textarea">
-              <h2>Timely Delivery</h2>
-              <p>
-                We understand the importance of deadlines. With meticulous
-                planning.
-              </p>
-            </div>
-          </div>
-          <div className="card">
-            <img className="banner2-icon" src={Group10} alt="" />
-            <div className="textarea">
-              <h2>Transparent Pricing</h2>
-              <p>
-                Our pricing is transparent and competitive. We strive to
-                eliminate hidden costs.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+   < Banner />
+     
       <div className="banner-3">
         <div className="section-left">
           <img src={frame32} alt="frame 32" />
@@ -242,16 +176,17 @@ const Home = () => {
           <h2>What our clinet has to say about us</h2>
           <div>
             <button>
-              <FaArrowLeftLong  style={{ color: 'black', width:"40px", fontSize: '15px', }}/>
+              <FaArrowLeftLong
+                style={{ color: "black", width: "40px", fontSize: "15px" }}
+              />
             </button>
             <button className="btn-rignt">
-              <FaArrowRightLong style={{ color: 'white', fontSize: '15px' }} />
-
+              <FaArrowRightLong style={{ color: "white", fontSize: "15px" }} />
             </button>
           </div>
         </div>
         <div className="buttom-section">
-              <Card/>
+          <Card />
         </div>
       </div>
     </>
