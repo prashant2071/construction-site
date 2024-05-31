@@ -12,24 +12,27 @@
 }
 .cardSection{
     display: flex;
+    gap: 40px;
     flex-wrap: wrap;
     justify-content: space-between;
  
   
     
     .flashcard{
+        display: block;
+        gap: 5px;
         box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.1);
-        width: 32%;
+        width: 28.75%;
         
         
         h2{
-            padding: 10px 10px;
+            padding: 10px 0px;
             font-size: 24px;
 
         }
         li,p{
             color: rgb(179, 176, 176);
-            padding: 10px 10px;
+            padding: 0px 10px;
             font-size: 15px;
         }  
         li{

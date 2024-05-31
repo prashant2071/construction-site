@@ -17,9 +17,11 @@ h1{
     }   
 }
 hr{
-    margin: 0 auto;
-    width: 60%;
+    margin: 0 280px;
+    width: 55%;
+    /* padding: 30px 280px; */
 }
 .position h2{
     margin-bottom: 10px;
+    
 }

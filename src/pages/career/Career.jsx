@@ -2,10 +2,13 @@ import React from "react";
 import "./Career.css";
 import Banner from "../../components/banner/Banner";
 import p497 from "../../images/Frame 497.png";
+import Content from "../../components/content/Content";
 
 const Career = () => {
   return (
     <div>
+      <Content Name="career" />
+
       <Banner />
       <div className="hiring">
         <h1>We are hiring</h1>
