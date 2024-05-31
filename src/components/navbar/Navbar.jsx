@@ -52,7 +52,7 @@ const Navbar = () => {
                   <div class="dropdown-content">
                     <Link to={"/PressRelease"}>Press Release</Link>
 
-                    <Link to={"/contact"}>Carrer</Link>
+                    <Link to={"/Career"}>Carrer</Link>
                     <Link to={"/contact"}>Contact</Link>
 
 
