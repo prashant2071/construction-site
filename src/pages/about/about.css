@@ -112,6 +112,7 @@
   }
 }
 .about-container{
+  width: 90%;
   margin-top: 3%;
   display: flex;
   justify-content: space-between;
@@ -122,6 +123,7 @@
   }
 }
 .person-container{
+  width: 30%;
   margin-bottom: 5%;
   h2{
     margin-top: 7px;
