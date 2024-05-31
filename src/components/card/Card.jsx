@@ -1,13 +1,18 @@
 import React, { useEffect, useState } from "react";
-import { testomonials } from "../../utilities/data/cardData";
+import { Hometestomonials,testomonials } from "../../utilities/data/cardData";
 import "./card.css";
 
-const Card = () => {
+const Card = (props) => {
   const [data, setData] = useState([]);
   useEffect(() => {
-    setData(testomonials);
+    if(props.name == "home"){
+      setData(Hometestomonials);
+    }
+    else{
+      setData(testomonials);
+    }
   }, []);
-  console.log("data is", testomonials);
+  console.log("data is", Hometestomonials);
   return (
     <>
       <div className="main-card">
