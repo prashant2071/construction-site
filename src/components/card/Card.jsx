@@ -5,7 +5,7 @@ import "./card.css";
 const Card = (props) => {
   const [data, setData] = useState([]);
   useEffect(() => {
-    if(props.name == "home"){
+    if(props.name === "home"){
       setData(Hometestomonials);
     }
     else{
