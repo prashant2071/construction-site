@@ -12,6 +12,7 @@ import Project from "./pages/project/Project";
 import Testimonial from "./pages/testimonials/Testimonial";
 import Contact from "./pages/contact/Contact";
 import PressRelease from "./pages/pressRelease/PressRelease";
+import Career from "./pages/career/Career";
 function App() {
   return (
     <>
@@ -24,12 +25,11 @@ function App() {
           <Route path="commitment" element={<Commitment />} />
           <Route path="Mining" element={<Mining />} />
           <Route path="PressRelease" element={<PressRelease />} />
-          <Route path="partner" element={<Partner />} />
-          <Route path="service" element={<Services />} />
+          <Route path="Career" element={<Career />} />
           <Route path="project" element={<Project />} />
+          <Route path="partner" element={<Partner />} />
           <Route path="testimonials" element={<Testimonial />} />
           <Route path="contact" element={<Contact />} />
-
           <Route path="*" element={<NoPageFound />} />
         </Routes>
         <Footer />

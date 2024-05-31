@@ -1,0 +1,27 @@
+.hiring{
+    padding: 40px 280px;
+line-height: 40px;
+h1{
+    margin-bottom: 10px;
+}
+}
+.jobpost{
+    display: flex;
+
+    padding: 30px 280px;
+    img{
+        margin-right: 35px;
+    }
+    .position{
+        width: 70%;
+    }   
+}
+hr{
+    margin: 0 280px;
+    width: 55%;
+    /* padding: 30px 280px; */
+}
+.position h2{
+    margin-bottom: 10px;
+    
+}
